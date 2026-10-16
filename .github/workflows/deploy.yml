@@ -35,7 +35,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir public
-          cp source/index.html source/model-workbench.html source/styles.css public/
+          cp source/index.html source/model-workbench.html source/figure-library.html source/styles.css public/
           cp -R source/app source/assets source/styles source/vendor public/
           touch public/.nojekyll
           python3 - <<'PY'
